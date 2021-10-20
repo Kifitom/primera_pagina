@@ -1,0 +1,44 @@
+nav { background-color: black;
+    color: white;
+
+
+
+}
+
+.Menu { 
+display: flex; 
+align-items: center;
+
+
+}
+
+.Menu li {
+ width: 10%;
+list-style: none;
+
+}
+
+.Menu a{
+color: white;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+text-decoration: none;
+
+}
+
+.Logo {
+flex-grow: 3;
+
+
+}
+
+.Logo img {
+    width: 10%;
+}
+
+.Menu a:hover {
+background-color: white;
+color: black; 
+border: 5px white solid;
+border-radius: 3px;
+
+}
